@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*---------global-----------------------*/
+.green-color
+{
+    color: green;
+}
+/*---------global-----------------------*/
+.login
+{
+    background-color: rgb(204, 202, 202);
+    height: 4vh;
+    text-align: end;
+}
+.login .items-login
+{
+margin-right: 15%;
+padding-top: 1vh;
+}
+.login .items-login a
+{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+    padding: 0 20px;
+}
+
+#border-left
+{
+    border-left: 2px rgb(10, 10, 10) solid;
+}
+
+
+
+
+
+.contact .content-contact
+{
+   float: right;
+   margin-right: 15%;
+}
+
+
+.contact .content-contact span
+{
+    display: block;
+    font-size: 20px;
+}
+
+.contact .content-contact .item-contact
+{
+    
+}
