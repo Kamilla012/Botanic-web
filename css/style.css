@@ -8,6 +8,26 @@
 {
     color: green;
 }
+
+a 
+{
+    color: rgb(10, 10, 10);
+    text-decoration: none;
+}
+
+li
+{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+}
+
+h1
+{
+    font-size: 50px;
+}
 /*---------global-----------------------*/
 .login
 {
@@ -22,8 +42,6 @@ padding-top: 1vh;
 }
 .login .items-login a
 {
-    color: rgb(10, 10, 10);
-    text-decoration: none;
     padding: 0 20px;
 }
 
@@ -31,15 +49,25 @@ padding-top: 1vh;
 {
     border-left: 2px rgb(10, 10, 10) solid;
 }
-
-
-
-
-
+.btn{
+    width: 120px;
+    padding: 15px 30px;
+    color: white;
+    border-radius: 40px;
+    border: none;
+    background: green;
+    font-size: 15px;
+}
+.btn:hover
+{
+    background: rgb(1, 102, 1);
+}
+/*---------------contact-----------------------------*/
 .contact .content-contact
 {
    float: right;
-   margin-right: 15%;
+   margin-right: 10%;
+   max-height: 20vh;
 }
 
 
@@ -51,5 +79,80 @@ padding-top: 1vh;
 
 .contact .content-contact .item-contact
 {
+    display: inline-block;
+    margin: 50px 20px;
+}
+/*---------------contact-----------------------------*/
+
+/*---------------navigation-----------------------------*/
+nav {
+    margin-top: 50px;
+}
+nav .nav .logo
+{
+    margin: 80px 30px;
+    display: inline-block;
+}
+nav .nav .logo .logo-item img
+{
+    width: 100px;
+    border-radius: 50%;
     
 }
+
+nav .nav .logo .logo-item
+{
+    display: inline-block;
+    margin-left: 20px;
+}
+#logo
+{
+    vertical-align:25px;
+    font-size: 40px;
+    
+}
+nav .nav .nav-list{
+    display: inline-block;
+}
+nav .nav .nav-list .list .nav-item-list
+{
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px 10px;
+    vertical-align:25px;
+ 
+}
+
+nav .nav .nav-list .list .nav-item-list a:hover
+{
+    color: green;
+}
+/*---------------navigation-----------------------------*/
+
+/*---------------section1-----------------------------*/
+section .content1
+{
+    height: 50vh;
+    background: rgb(204, 202, 202);
+}
+
+section .content1 .title
+{
+    width: 65%;
+    margin: 50px 10%;
+}
+section .content1 .paragraph-about-greenhouse
+{
+    margin: 40px 0;
+    font-size: 20px;
+    width: 600px;
+}
+
+
+
+section .content1 .image-greenhouse 
+{
+    height: 50vh;
+}
+/*---------------section1-----------------------------*/
+
