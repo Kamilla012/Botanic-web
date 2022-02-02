@@ -271,7 +271,6 @@ section .content1 .image-greenhouse
     height: 70vh;
     margin-left: auto;
     margin-right: auto;
-    
 }
 .news .title-news{
     font-size: 30px;
@@ -282,12 +281,29 @@ section .content1 .image-greenhouse
     display: grid;
     grid-template-columns: 400px 400px ;
     grid-column-gap: 100px;
-    grid-row-gap: 50px
+    grid-row-gap: 50px;
    
 } 
 .news .grid-news .caption{
     font-size: 25px;
+   
 }
+
+
+.data{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: green;
+    position: relative;
+    left: -70px;
+    top: 95px;
+
+    
+}
+
+
+
 
 .news .grid-news p{
     color: rgb(68, 68, 68);
