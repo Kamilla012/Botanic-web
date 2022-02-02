@@ -28,6 +28,10 @@ h1
 {
     font-size: 50px;
 }
+
+h4{
+    font-size: 25px;
+}
 .btn{
     width: 120px;
     padding: 10px 20px;
@@ -223,6 +227,7 @@ section .content1 .image-greenhouse
 .about-us .about-us-content{
     margin-left: 20%;
     width: 600px;
+    max-height: 90vh;
     font-size: 20px;
 }
 .about-us .about-us-content h1, p{
@@ -234,3 +239,64 @@ section .content1 .image-greenhouse
     width: 150px;
 }
 /*---------------about-us-----------------------------*/
+
+/*---------------why-us-----------------------------*/
+.why-us
+{
+    width: 1000px;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 60px;
+    font-size: 25px;
+}
+
+.why-us .containter .rectangle-icon{
+    width: 300px;
+    text-align: center;
+    margin: 30px;
+}
+.why-us .containter .rectangle-icon .icon
+{
+    font-size: 80px;
+    margin: 40px;
+}
+/*---------------why-us-----------------------------*/
+
+
+/*---------------news-----------------------------*/
+.news
+{
+    width: 1000px;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.news .title-news{
+    font-size: 30px;
+}
+
+.news .grid-news{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 400px 400px ;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px
+   
+} 
+.news .grid-news .caption{
+    font-size: 25px;
+}
+
+.news .grid-news p{
+    color: rgb(68, 68, 68);
+}
+
+.news .grid-news .btn-grey{
+    width: 140px;
+    padding: 10px 0;
+    background: gray;
+}
+/*---------------news-----------------------------*/
+
