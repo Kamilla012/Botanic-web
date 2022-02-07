@@ -297,7 +297,7 @@ section .content1 .image-greenhouse
     background: gray;
 }
 /*---------------video-----------------------------*/
-.video{
+.video-box{
     margin-top: 100px;
     height: 60vh;
     width: 1200px;
@@ -336,6 +336,28 @@ border-radius: 50%;
     display: inline-block;
     vertical-align: 20px;
     font-size: 30px;
+}
+
+.footer .footer-box .footer-column{
+    margin: 80px;
+}
+.footer .footer-box .footer-column .title-footer{
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: block;
+}
+.footer .footer-box .footer-column .footer-list .footer-item{
+    margin: 15px 0
+}
+
+.footer .footer-box .footer-column .footer-list .footer-item a:hover{
+    color: green;
+}
+
+.social-box{
+    display: inline;
+    font-size: 30px;
+    margin: 30px;
 }
 /*---------------footer-----------------------------*/
 
